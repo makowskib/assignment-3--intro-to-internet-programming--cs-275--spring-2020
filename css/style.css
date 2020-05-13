@@ -13,3 +13,8 @@ td {
   text-align: center;
   font-family: sans-serif;
 }
+.transform {
+  transition: 0.50s;
+  transform: rotate(180deg);
+  color: darkblue;
+}
