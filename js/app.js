@@ -12,7 +12,8 @@ window.onload=()=>{
             letter[2].classList.remove('transform');
             letter[3].classList.remove('transform');
         }
-    })
+    });
+
 }
 
 
