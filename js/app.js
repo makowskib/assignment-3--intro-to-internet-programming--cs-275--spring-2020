@@ -3,7 +3,7 @@ let letter =document.querySelectorAll('td');
 window.onload=()=>{
     for(let i=0; i < letter.length; i++){
         letter[i].addEventListener('click',()=>{
-            letter[i].classList.add('transform');
+            letter[i].classList.toggle('transform');
         });
     }
     //letterA
